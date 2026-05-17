@@ -138,7 +138,7 @@ function resetQuiz() {
 
 async function copyResult() {
   const score = answers.reduce((total, value) => total + value, 0);
-  const text = `こころチェックインの結果: ${score}/27点\n${resultTitle.textContent}\n${resultCopy.textContent}`;
+  const text = `こころ観測室の結果: ${score}/27点\n${resultTitle.textContent}\n${resultCopy.textContent}`;
 
   try {
     if (navigator.clipboard) {
